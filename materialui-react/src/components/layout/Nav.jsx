@@ -8,13 +8,13 @@ export const Nav = () => {
     <nav className="nav">
       <ul>
         <li>
-          <NavLink to="/">Tech</NavLink>
+          <NavLink>Tech</NavLink>
         </li>
         <li>
-          <NavLink to="/">Design</NavLink>
+          <NavLink>Design</NavLink>
         </li>
         <li>
-          <NavLink to="/">Culture</NavLink>
+          <NavLink>Culture</NavLink>
         </li>
         <li>
           <NavLink>Business</NavLink>
