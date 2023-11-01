@@ -7,14 +7,14 @@ export const Header = () => {
 
   return (
     <header className="header">
-      <span>SUBSCRIBE</span>
+      <span><Link to="https://www.linkedin.com/in/jerem%C3%ADas-fern%C3%A1ndez-1ab01922a/">Linkedln</Link></span>
 
-      <h1><Link to="/github.com/Jeremiias8">Blog</Link></h1>
+      <h1><Link to="https://github.com/Jeremiias8">Blog</Link></h1>
       
       <div className="searcher">
-        <AiOutlineSearch />
+        <button><AiOutlineSearch /></button>
 
-        <button>SIGN UP</button>
+        <button><Link to="/sign-up">SIGN UP</Link></button>
       </div>
     </header>
   );

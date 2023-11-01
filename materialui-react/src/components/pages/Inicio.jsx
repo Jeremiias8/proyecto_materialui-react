@@ -1,19 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Rutas } from '../../routing/Rutas';
 
 export const Inicio = () => {
 
   return (
-    <div className="jumbo">
-
-      <h1>Bienvenido al Blog con React</h1>
-      <p>
-        Blog creado con ViteJS y componentes de Material UI.
-      </p>
-
-      <Link to="/" className='button'>Ver +</Link>
-
-    </div>
+    <div>Inicio</div>
   );
 
 }

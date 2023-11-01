@@ -6,38 +6,25 @@ export const Nav = () => {
 
   return (
     <nav className="nav">
-      <ul>
-        <li>
-          <NavLink>Tech</NavLink>
-        </li>
-        <li>
-          <NavLink>Design</NavLink>
-        </li>
-        <li>
-          <NavLink>Culture</NavLink>
-        </li>
-        <li>
-          <NavLink>Business</NavLink>
-        </li>
-        <li>
-          <NavLink>Politics</NavLink>
-        </li>
-        <li>
-          <NavLink>Opinion</NavLink>
-        </li>
-        <li>
-          <NavLink>Science</NavLink>
-        </li>
-        <li>
-          <NavLink>Health</NavLink>
-        </li>
-        <li>
-          <NavLink>Style</NavLink>
-        </li>
-        <li>
-          <NavLink>Travel</NavLink>
-        </li>
-      </ul>
+          <NavLink>HTML5</NavLink>
+            &nbsp;
+          <NavLink>CSS3</NavLink>
+            &nbsp;
+          <NavLink>Bootstrap</NavLink>
+            &nbsp;
+          <NavLink>JavaScript</NavLink>
+            &nbsp;
+          <NavLink>TypeScript</NavLink>
+            &nbsp;
+          <NavLink>Angular</NavLink>
+            &nbsp;
+          <NavLink>React</NavLink>
+            &nbsp;
+          <NavLink>NodeJS</NavLink>
+            &nbsp;
+          <NavLink>ExpressJS</NavLink>
+            &nbsp;
+          <NavLink>MongoDB</NavLink>
     </nav>
   );
 

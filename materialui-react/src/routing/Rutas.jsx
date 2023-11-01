@@ -7,6 +7,7 @@ import { Inicio } from '../components/pages/Inicio';
 import { Nav } from '../components/layout/Nav';
 import { Header } from '../components/layout/Header';
 import { Cards } from '../components/layout/Cards';
+import { Form } from '../components/layout/Form';
 import { Footer } from '../components/layout/Footer';
 
 export const Rutas = () => {
@@ -15,15 +16,15 @@ export const Rutas = () => {
         <BrowserRouter>
             {/* LAYOUT */}
             <Header />
-            <hr />
             <Nav />
             <Cards />
 
             {/* Contenido central y rutas */}
             <section id="content" className='content'>
                 <Routes>
-                    <Route path='/' element={<Inicio />} />
+                    <Route path='/' />
                     <Route path='/inicio' element={<Inicio />} />
+                    <Route path='/sign-up' element={<Form />} />
 
                     <Route path='*' element={
                         <div className='jumbo'>

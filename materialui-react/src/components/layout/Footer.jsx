@@ -11,8 +11,6 @@ export const Footer = () => {
       </strong>
 
       <p>
-        Footer of the blog
-
         Copyright &copy; <a href="https://github.com/Jeremiias8">
             GitHub
         </a> 2023.
