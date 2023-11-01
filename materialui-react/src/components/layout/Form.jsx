@@ -21,7 +21,9 @@ export const Form = () => {
   return (
     <div>
 
-      <Link to="/inicio" className='button'>Ver +</Link>
+      <span>
+        <Link to="/inicio" className='see-more'>Ver +</Link>
+      </span>
 
       <form className='form-ui' onSubmit={enviarPeticion}>
 

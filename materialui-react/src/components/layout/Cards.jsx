@@ -16,11 +16,11 @@ export const Cards = () => {
           alt="landscape"
           width="500"
           height="360"
-          image="../src/assets/img/landscape.jpg"
+          image="../src/assets/img/react.jpg"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Title of a longer featured blog post
+            Proyecto React
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Multiple lines of text that form the lede, informing new readers
@@ -29,7 +29,7 @@ export const Cards = () => {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">Continue reading...</Button>
+          <Button size="small">Continue looking other portafoly...</Button>
         </CardActions>
       </Card>
 
@@ -41,11 +41,11 @@ export const Cards = () => {
             alt="landscape"
             width="240"
             height="200"
-            image="../src/assets/img/landscape.jpg"
+            image="../src/assets/img/angular.jpg"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Featured post
+              Angular 15 - Food order project
             </Typography>
             <Typography variant="body2" color="text.secondary">
               This is a wider card with supporting text below as a natural
@@ -53,7 +53,7 @@ export const Cards = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Continue reading...</Button>
+            <Button size="small">Continue looking other portafoly...</Button>
           </CardActions>
         </Card>
 
@@ -63,11 +63,12 @@ export const Cards = () => {
             alt="landscape"
             width="240"
             height="200"
-            image="../src/assets/img/landscape.jpg"
+            image="../src/assets/img/nodejs.jpg"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Post title
+              API REST - NodeJS/ExpressJS
+              /MongoDB
             </Typography>
             <Typography variant="body2" color="text.secondary">
               This is a wider card with supporting text below as a natural
@@ -75,7 +76,7 @@ export const Cards = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Continue reading...</Button>
+            <Button size="small">Continue looking other portafoly...</Button>
           </CardActions>
         </Card>
 
