@@ -3,6 +3,7 @@ import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
 
 // pages's components
 import { Inicio } from '../components/pages/Inicio';
+import { Experience } from '../components/pages/Experience';
 
 import { Nav } from '../components/layout/Nav';
 import { Header } from '../components/layout/Header';
@@ -24,6 +25,7 @@ export const Rutas = () => {
                 <Routes>
                     <Route path='/' />
                     <Route path='/inicio' element={<Inicio />} />
+                    <Route path='/experience' element={<Experience />} />
                     <Route path='/sign-up' element={<Form />} />
 
                     <Route path='*' element={
