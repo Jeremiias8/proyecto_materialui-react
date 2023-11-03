@@ -5,7 +5,7 @@ const MyTheme = {
     ...DefaultTheme,
     colors: {
         ...DefaultTheme.colors,
-        primary: 'rgb(255, 45, 85)',
+        primary: 'rgb(45, 55, 255)',
     },
 };
 
