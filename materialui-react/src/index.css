@@ -118,6 +118,36 @@ button:focus-visible {
   padding: 10px;
 }
 
+/* seemore */
+.cards-more {
+  margin: 10px auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+  cursor: pointer;
+}
+
+.cards-more:hover {
+  box-shadow: 0px 0px 30px #202020;
+}
+
+.cards-more .btn-back {
+  margin-right: 15px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 /* form */
 .form-ui {
   margin: 10px auto;

@@ -19,7 +19,7 @@ export const Inicio = () => {
       <h2>Portafolios</h2>
 
       <h3></h3>
-      <button><Link to="https://github.com/Jeremiias8">Mostrar + proyectos</Link></button>
+      <button><Link to="/see-more">Mostrar + proyectos</Link></button>
 
       <hr />
 
