@@ -149,6 +149,23 @@ button:focus-visible {
 }
 
 /* form */
+.show-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+}
+
+.show-data p {
+  margin: 6px;
+  padding: 4px;
+}
+
 .form-ui {
   margin: 10px auto;
   padding: 10px;

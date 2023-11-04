@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../../index.css'
 import { Link } from 'react-router-dom';
 
 export const Form = () => {
@@ -11,7 +12,7 @@ export const Form = () => {
     let datos = e.target;
 
     let usuario = {
-      nombre: datos.nombre.value,
+      nombre: datos.name.value,
       business: datos.business.value,
       enviar: datos.enviar.value
     };
@@ -48,9 +49,8 @@ export const Form = () => {
       {
         usuario.name && usuario.name.length >= 1 && 
         (
-          <div>
-              <strong>{usuario.nombre}</strong> 
-              <br />
+          <div className='show-data'>
+              El CEO: <p><strong> {usuario.name} </strong></p> 
               es de la empresa: <p><i>{usuario.business}</i></p>
           </div>
         )
